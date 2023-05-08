@@ -14,9 +14,9 @@ Microsoft SQL Server
 
 Üyeler aşağıdaki işlemleri yapabilir:
  <ul>
-                                <li>Tüm haberlerin listesini alabilir.
+                                <li>Admin - Tüm Yetki
                                 </li>
-                                <li>Bir haberin detaylarını görebilir.
+                                <li>User - Okuma, Yorum Yapma
                                 </li>
                             </ul>
 
@@ -26,5 +26,5 @@ Microsoft SQL Server
 # Swagger 
 ![swagger_1](https://user-images.githubusercontent.com/110261956/236776689-2d687d77-495b-48e1-bc1e-6e759705a2c7.jpg)
 ![swagger_2](https://user-images.githubusercontent.com/110261956/236776714-d3c57be3-93fc-4b40-b2c6-48d271b16bd9.jpg)
-# Klaör Yapısı
+# Klasör Yapısı
 ![klasorYapisi](https://user-images.githubusercontent.com/110261956/236776812-39806a5a-7481-4956-be17-c33b37d236b7.jpg)
