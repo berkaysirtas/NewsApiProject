@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bd35f58f1dac49f0bea3aa7d19c02e02" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="newsDbModel.Category" Width="1.5" PointX="4.875" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="newsDbModel.Comment" Width="1.5" PointX="1.375" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newsDbModel.Members" Width="1.5" PointX="4.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="newsDbModel.News" Width="1.5" PointX="8.875" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="newsDbModel.FK_News_ToCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="newsDbModel.FK_Comment_ToMembers" ManuallyRouted="false" />
+        <AssociationConnector Association="newsDbModel.FK_Comment_ToNews" ManuallyRouted="false" />
+        <AssociationConnector Association="newsDbModel.FK_News_ToMembers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
